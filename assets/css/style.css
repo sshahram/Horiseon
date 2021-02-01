@@ -143,7 +143,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -165,7 +165,7 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
@@ -178,7 +178,7 @@ p {
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+#online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
