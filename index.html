@@ -11,11 +11,12 @@
     <!-- Change div element to header element for accessibility -->
     <header>
         <!-- Remove redundant class seo -->
+        <!-- Add a element to h1 -->
         <h1>Hori<span>seo</span>n</h1>
-        <!-- Change div element to nav element for accessibility -->
 
         <!-- navigation -->
 
+        <!-- Change div element to nav element for accessibility -->
         <nav>
             <ul>
                 <li>
@@ -42,7 +43,7 @@
     <section class="content">
         <!-- Change div element to article element -->
         <!-- Change "search-engine-optimization" class to an id with the same name -->
-        <article id="search-engine-optimization"> 
+        <article id="search-engine-optimization" class="content-info"> 
             <img src="./assets/images/search-engine-optimization.jpg" alt="A computer, a cup of coffee, a magnifier, some pens and a book with the title of SEO" class="float-left" />
             <!-- Add div element that contains the text -->
             <div>
@@ -57,7 +58,9 @@
 
         <!-- Change div element to article element -->
         <!-- Remove repetetive element "online-reputation-management" class and only keep the id -->
-        <article id="online-reputation-management">
+        <!-- Add a new class to all three article elements called content-info.
+        This will simplify the CSS properties -->
+        <article id="online-reputation-management" class="content-info">
             <img src="./assets/images/online-reputation-management.jpg" alt="A person with a phone and a computer that shows a chart called reputation" class="float-right" />
             <!-- Add div element that contains the text -->
             <div>
@@ -72,7 +75,7 @@
 
         <!-- Change div element to article element -->
         <!-- Remove repetetive element "social-media-marketing" class and only keep the id -->
-        <article id="social-media-marketing">
+        <article id="social-media-marketing" class="content-info">
             <img src="./assets/images/social-media-marketing.jpg" alt="different internet icons along with share, media, like and tweet tags" class="float-left" />
             <!-- Add div element that contains the text -->
             <div>
@@ -88,7 +91,9 @@
 
     <!-- Change div element to section element -->
     <section class="benefits">
-        <div class="benefit-lead">
+        <!-- Consolidate three classes "benefit-lead", "benefit-brand" and "benefit-cost". 
+            Create one new class called "Benefit-info" for all three -->
+        <div class="benefit-info">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt=""/>
             <p>
@@ -96,7 +101,7 @@
             </p>
         </div>
 
-        <div class="benefit-brand">
+        <div class="benefit-info">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt=""/>
             <p>
@@ -104,7 +109,7 @@
             </p>
         </div>
 
-        <div class="benefit-cost">
+        <div class="benefit-info">
             <h3>Cost Management</h3>
             <!-- Remove redundant closing tag </img> -->
             <img src="./assets/images/cost-management.png" alt="" />
