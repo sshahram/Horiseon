@@ -20,6 +20,7 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
+    padding-left: 30px;
 }
 
 /* Use span instead of .seo class */
@@ -36,30 +37,18 @@ header nav {
     font-size: 20px;
 }
 
-/* Comment out as it has no effect on the style of nav section of the page */
-/* header nav ul {
+/* Add padding-right to resemble the mock-up */
+header nav ul {
     list-style-type: none;
-} */
+    padding-right: 30px;
+}
 
+/* Add padding-left to resemble mock-up */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding-left: 40px;
 }
-
-/* Move header and footer next to each other */
-/* footer style start */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: black
-}
-
-footer h2 {
-    font-size: 20px;
-}
-/* footer style end */
 
 a {
     color: inherit;
@@ -71,8 +60,10 @@ p {
 }
 
 /* hero style start */
+
+/* Change the height to match the mock-up */
 .hero {
-    height: 800px;
+    height: 1260px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -107,33 +98,43 @@ p {
     font-size: 36px;
 }
 
-/* Move float-left and float-right next to related elements */
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* Add padding to match mockup */
+.content-info div p {
+    padding-right: 50px;
 }
 
+/* Move float-left and float-right next to related elements */
+/* Change the margin-right to match the mock-up */
+.float-left {
+    float: left;
+    margin-right: 40px;
+}
+
+/* Change the margin-left to match the mock-up */
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 /* content style end */
 
 /* benefits style start */
+/* Change the height to match the mock-up */
 .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 1000px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 /* Consolidate CSS properties by assigning one class "benefit-info" to three elements */
+/* Add padding to the top to match the mock-up */
 .benefit-info {
     margin-bottom: 32px;
+    padding-top: 10px;
 }
 
 .benefit-info h3 {
@@ -147,3 +148,17 @@ p {
     max-width: 150px;
 }
 /* benefit style end */
+
+/* footer style start */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black
+}
+
+footer h2 {
+    font-size: 20px;
+}
+/* footer style end */
