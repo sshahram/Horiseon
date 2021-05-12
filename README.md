@@ -1,6 +1,6 @@
 # Code Refactor
 
-The main purpose of this project is to refactor the current code written for "Horiseon Social Solution Services"
+The main purpose of this project is to refactor the current code written for Horiseon website by restructuring and adding semantic HTML elements for screen readers.
 
 ## Task List
 
@@ -9,7 +9,7 @@ The main purpose of this project is to refactor the current code written for "Ho
 - [x] Consolidate CSS selectors and properties
 - [x] Include comments about changes made and before each element and section of the page
 - [x] Put elements in a logical structure  independent of styling and positioning in HTML
-- [x] Add alt attributes ti HTML <img> tags
+- [x] Add alt attributes to HTML <img> tags
 - [x] Put heading attributes in a sequential order
 - [x] Make title elements concise and descriptive
 
@@ -30,9 +30,17 @@ As a marketing agency, I WANT a codebase that follows accessibility standards, s
 * When I view the heading attributes, then they fall in sequential order
 * When I view the title element, then I find a concise, descriptive title
 
+## Link to Deployed Application
+
+https://sshahram.github.io/Horiseon/
+
+## Link to GitHub Repository
+
+https://github.com/sshahram/Horiseon
+
 ## Screenshot
 Here is the snapshot of how the website should look like:
-![alt="Horiseon Mock-up"](./assets/images/01-html-css-git-homework-demo-1.png)
+![alt="Horiseon Mock-up"](./assets/images/Horiseon-mock-up.png)
 
 
 
